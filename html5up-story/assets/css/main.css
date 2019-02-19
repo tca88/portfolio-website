@@ -2613,9 +2613,6 @@ input, select, textarea {
 		position: relative;
 	}
 
-		.image.image-circle {
-			background: white;
-		}
 
 		.image img {
 			display: block;

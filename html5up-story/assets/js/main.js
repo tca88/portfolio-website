@@ -74,7 +74,8 @@
 							switch (positionClass.length > 1 ? positionClass[1] : '') {
 
 								case 'left':
-									$this.css('background-position', 'left');
+									$this
+									.css('background-position', 'left');
 									break;
 
 								case 'right':
@@ -89,7 +90,8 @@
 							}
 
 						// Hide original.
-							$img.css('opacity', '0');
+							$img
+							.css('opacity', '0');
 
 					});
 
@@ -98,6 +100,7 @@
 	// Smooth scroll.
 		$('.smooth-scroll').scrolly();
 		$('.smooth-scroll-middle').scrolly({ anchor: 'middle' });
+
 
 	// Wrapper.
 		$wrapper.children()
@@ -118,7 +121,8 @@
 					var $this = $(this);
 
 					if ($this.hasClass('onscroll-bidirectional'))
-						$this.addClass('is-inactive');
+						$this.addClass('is-inactive')
+						$this.css('font-weight', 'bold');
 
 				}
 			});
